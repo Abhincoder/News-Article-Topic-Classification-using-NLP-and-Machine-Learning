@@ -40,14 +40,14 @@ Label Mapping:
 
 ## 🤖 Models Applied
 
-| Model               | Validation Accuracy | Test Accuracy | Notes |
+| Model           
 |--------------------|---------------------|---------------|-------|
-| Logistic Regression | ~0.719              | —             | Baseline model |
-| Naive Bayes (MultinomialNB) | ~0.876 (CV)     | ~0.868        | Best performing |
-| Random Forest       | ~0.814 (CV)         | —             | Good with tuning |
-| XGBoost             | ~0.853 (CV)         | —             | Tuned with GridSearchCV |
-| MLP Classifier      | ~0.801 (Val)        | ~0.798        | Neural network |
-| SGD Classifier      | ~0.712 (Val)        | —             | Linear model baseline |
+| Logistic Regression 
+| Naive Bayes (MultinomialNB)
+| Random Forest       
+| XGBoost             
+| MLP Classifier      
+| SGD Classifier      
 
 ---
 
@@ -55,4 +55,14 @@ Label Mapping:
 
 - Applied Latent Dirichlet Allocation (LDA) to discover hidden topics.
 - Identified 10 coherent topics, e.g.:
+Topic 0: ap game season new night win team lead ared year
+Topic 1: president bush election minister ap prime iraq vote leader afp
+Topic 2: microsoft window darfur talk sudan city peace government security eu
+Topic 3: court case ap new judge india year trial federal lawsuit
+Topic 4: areuters china drug nuclear new space ap state iran say
+Topic 5: new search google apple music web world intel open computer
+Topic 6: world champion cup gold win team olympic athens united england
+Topic 7: company new software service corp plan deal dollar business microsoft
+Topic 8: dollar oil areuters price stock new percent sale profit share
+Topic 9: iraq killed people palestinian police areuters attack baghdad iraqi official
 
